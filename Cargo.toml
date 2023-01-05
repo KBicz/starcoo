@@ -1,0 +1,20 @@
+[package]
+name = "starcoo"
+version = "1.0.0"
+authors = ["Kamil Bicz"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.22"
+julianday = "1.2.0"
+ansi_term = "0.12.1"
+
+[[bin]]
+name = "starcoo"
+path = "src/main.rs"
+
+[profile.release]
+lto = "thin"
+opt-level = 3
