@@ -15,7 +15,7 @@ fn helpf()
 {    
     println!("\n  Program starcoo for MacOS, Linux and Windows written by K. Bicz, ver. of Aug 1, 2021.");
     println!("  Show live information about star coordinates.");
-    println!("\n  Usage: starcoo <-star=Str || -delta=f64 -alpha=f64> [-lat=i64] [-lon=i64] [-ref=i64]\n");
+    println!("\n  Usage: starcoo <-star=Str || -delta=f64 -alpha=f64> [-lat=f64] [-lon=f64] [-ref=f64]\n");
     println!("         option  -star : star name (only with installed simpos without ra & dec, format = YZ_CMi).");
     println!("                 -ra   : right ascension of the star (in degrees).");
     println!("                 -dec  : declination of the star (in degrees).");
